@@ -9,3 +9,4 @@ tqdm
 torch==2.2
 triton==2.2
 xformers==0.0.24
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
